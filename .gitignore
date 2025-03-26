@@ -1,0 +1,12 @@
+# docker
+.dockerignore
+docker-compose.override.yml
+docker-compose.local.yml
+
+# build artifacts 
+dockerfile
+docker-compose.yml
+
+
+# temp 
+venv/
