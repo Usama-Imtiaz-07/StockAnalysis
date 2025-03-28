@@ -1,13 +1,19 @@
-# docker
-.dockerignore
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.env
+
+# Docker
 docker-compose.override.yml
 docker-compose.local.yml
 
-# build artifacts 
-dockerfile
-docker-compose.yml
+# IDE and System Files
+.vscode/
+.DS_Store
+*.swp
 
-
-# temp 
-venv/
-.env
+# Other project-specific ignores
